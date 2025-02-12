@@ -14,4 +14,18 @@ svg {
 
 div {
     margin: 20px 0;
-} 
+    page-break-inside: avoid;
+}
+
+.mermaid-diagram {
+    width: 100%;
+    max-width: 800px;
+    margin: 2em auto;
+    display: block;
+}
+
+.mermaid-diagram svg {
+    width: 100%;
+    height: auto;
+    max-height: 600px;
+}

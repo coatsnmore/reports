@@ -1,9 +1,11 @@
 {
-    "type": "pie",
-    "title": "Pet Distribution",
+    "title": "Pet Report 2024",
+    "chart": {
+        "title": "Pet Distribution"
+    },
     "data": {
         "Dogs": 10000,
-        "Cats": 300,
-        "Rats": 3
-    }
+        "Cats": 300
+    },
+    "conclusion": "Dogs are indeed more popular than cats!"
 } 
