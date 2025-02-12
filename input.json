@@ -1,0 +1,9 @@
+{
+    "type": "pie",
+    "title": "Pet Distribution",
+    "data": {
+        "Dogs": 79,
+        "Cats": 18,
+        "Rats": 3
+    }
+} 

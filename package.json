@@ -1,0 +1,19 @@
+{
+  "name": "mermiad-time",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "mermaid": "node mermaid.js",
+    "mmdc": "mmdc -i input.mmd -o output.svg",
+    "generate": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@mermaid-js/mermaid-cli": "^11.4.2",
+    "fs-extra": "^11.3.0",
+    "markdown-pdf": "^11.0.0"
+  }
+}
