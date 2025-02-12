@@ -20,3 +20,5 @@ npm install
 # Generate report  
 npm run generate
 ```
+
+This will generate a report in the `output` directory.
