@@ -35,9 +35,14 @@ async function generateDiagram(jsonPath, outputDir = './output') {
         // Convert Markdown to PDF
         const pdfPath = path.join(outputDir, 'output.pdf');
         await new Promise((resolve, reject) => {
-            markdownpdf()
-                .from(markdownPath)
-                .to(pdfPath, () => resolve());
+            markdownpdf({
+                cssPath: path.join(__dirname, 'pdf-style.css'),
+                remarkable: {
+                    html: true // Enable HTML in markdown
+                }
+            })
+            .from(markdownPath)
+            .to(pdfPath, () => resolve());
         });
 
         console.log('Generation complete! Check the output directory.');
@@ -69,7 +74,9 @@ function generateMarkdownContent(jsonData, svgContent) {
 
 ## Data Visualization
 
+<div style="text-align: center;">
 ${svgContent}
+</div>
 
 ## Data Details
 
