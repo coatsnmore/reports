@@ -1,9 +1,63 @@
-# Pet Report 2024
+# Pet Distribution Survey 2024
 
-Important Pet Details!!!
+## Pet Population Analysis
 
-<div class="mermaid-diagram" style="text-align: center;">
-<svg aria-roledescription="pie" role="graphics-document document" style="max-width: 547.082px; background-color: white;" viewBox="0 0 547.08154296875 450" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" width="100%" id="my-svg"><style>#my-svg{font-family:"trebuchet ms",verdana,arial,sans-serif;font-size:16px;fill:#333;}#my-svg .error-icon{fill:#552222;}#my-svg .error-text{fill:#552222;stroke:#552222;}#my-svg .edge-thickness-normal{stroke-width:1px;}#my-svg .edge-thickness-thick{stroke-width:3.5px;}#my-svg .edge-pattern-solid{stroke-dasharray:0;}#my-svg .edge-thickness-invisible{stroke-width:0;fill:none;}#my-svg .edge-pattern-dashed{stroke-dasharray:3;}#my-svg .edge-pattern-dotted{stroke-dasharray:2;}#my-svg .marker{fill:#333333;stroke:#333333;}#my-svg .marker.cross{stroke:#333333;}#my-svg svg{font-family:"trebuchet ms",verdana,arial,sans-serif;font-size:16px;}#my-svg p{margin:0;}#my-svg .pieCircle{stroke:black;stroke-width:2px;opacity:0.7;}#my-svg .pieOuterCircle{stroke:black;stroke-width:2px;fill:none;}#my-svg .pieTitleText{text-anchor:middle;font-size:25px;fill:black;font-family:"trebuchet ms",verdana,arial,sans-serif;}#my-svg .slice{font-family:"trebuchet ms",verdana,arial,sans-serif;fill:#333;font-size:17px;}#my-svg .legend text{fill:black;font-family:"trebuchet ms",verdana,arial,sans-serif;font-size:17px;}#my-svg :root{--mermaid-font-family:"trebuchet ms",verdana,arial,sans-serif;}</style><g/><g transform="translate(225,225)"><circle class="pieOuterCircle" r="186" cy="0" cx="0"/><path class="pieCircle" fill="#ECECFF" d="M0,-185A185,185,0,1,1,-33.667,-181.911L0,0Z"/><path class="pieCircle" fill="#ffffde" d="M-33.667,-181.911A185,185,0,0,1,0,-185L0,0Z"/><text style="text-anchor: middle;" class="slice" transform="translate(12.678290127623393,138.16954606366704)">97%</text><text style="text-anchor: middle;" class="slice" transform="translate(-12.678290127623473,-138.16954606366704)">3%</text><text class="pieTitleText" y="-200" x="0">Pet Distribution</text><g transform="translate(216,-22)" class="legend"><rect style="fill: rgb(236, 236, 255); stroke: rgb(236, 236, 255);" height="18" width="18"/><text y="14" x="22">Dogs</text></g><g transform="translate(216,0)" class="legend"><rect style="fill: rgb(255, 255, 222); stroke: rgb(255, 255, 222);" height="18" width="18"/><text y="14" x="22">Cats</text></g></g></svg>
+Our comprehensive survey reveals interesting patterns in pet ownership.
+
+<div class="mermaid-diagram">
+<svg aria-roledescription="pie" role="graphics-document document" style="max-width: 600.094px; background-color: white;" viewBox="0 0 600.09375 450" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" width="100%" id="my-svg"><style>#my-svg{font-family:Segoe UI;font-size:16px;fill:#333;}#my-svg .error-icon{fill:#552222;}#my-svg .error-text{fill:#552222;stroke:#552222;}#my-svg .edge-thickness-normal{stroke-width:1px;}#my-svg .edge-thickness-thick{stroke-width:3.5px;}#my-svg .edge-pattern-solid{stroke-dasharray:0;}#my-svg .edge-thickness-invisible{stroke-width:0;fill:none;}#my-svg .edge-pattern-dashed{stroke-dasharray:3;}#my-svg .edge-pattern-dotted{stroke-dasharray:2;}#my-svg .marker{fill:#333333;stroke:#333333;}#my-svg .marker.cross{stroke:#333333;}#my-svg svg{font-family:Segoe UI;font-size:16px;}#my-svg p{margin:0;}#my-svg .pieCircle{stroke:black;stroke-width:2px;opacity:0.7;}#my-svg .pieOuterCircle{stroke:black;stroke-width:2px;fill:none;}#my-svg .pieTitleText{text-anchor:middle;font-size:25px;fill:black;font-family:Segoe UI;}#my-svg .slice{font-family:Segoe UI;fill:#333;font-size:17px;}#my-svg .legend text{fill:black;font-family:Segoe UI;font-size:17px;}#my-svg :root{--mermaid-font-family:"trebuchet ms",verdana,arial,sans-serif;}</style><g/><g transform="translate(225,225)"><circle class="pieOuterCircle" r="186" cy="0" cx="0"/><path class="pieCircle" fill="#3498db" d="M0,-185A185,185,0,0,1,184.864,-7.086L0,0Z"/><path class="pieCircle" fill="#e74c3c" d="M184.864,-7.086A185,185,0,0,1,55.818,176.378L0,0Z"/><path class="pieCircle" fill="#2ecc71" d="M55.818,176.378A185,185,0,0,1,-132.31,129.303L0,0Z"/><path class="pieCircle" fill="#f1c40f" d="M-132.31,129.303A185,185,0,0,1,-184.343,15.575L0,0Z"/><path class="pieCircle" fill="#9b59b6" d="M-184.343,15.575A185,185,0,0,1,-169.953,-73.082L0,0Z"/><path class="pieCircle" fill="#1abc9c" d="M-169.953,-73.082A185,185,0,0,1,-124.14,-137.165L0,0Z"/><path class="pieCircle" fill="#e67e22" d="M-124.14,-137.165A185,185,0,0,1,-74.382,-169.388L0,0Z"/><path class="pieCircle" fill="#34495e" d="M-74.382,-169.388A185,185,0,0,1,-33.83,-181.881L0,0Z"/><path class="pieCircle" fill="#95a5a6" d="M-33.83,-181.881A185,185,0,0,1,-11.333,-184.653L0,0Z"/><path class="pieCircle" fill="#d35400" d="M-11.333,-184.653A185,185,0,0,1,0,-185L0,0Z"/><text style="text-anchor: middle;" class="slice" transform="translate(96.21375948492356,-99.97237111210919)">24%</text><text style="text-anchor: middle;" class="slice" transform="translate(113.48769880638207,79.82546410533362)">21%</text><text style="text-anchor: middle;" class="slice" transform="translate(-33.68127089138237,134.59990524194777)">18%</text><text style="text-anchor: middle;" class="slice" transform="translate(-126.17125846424709,57.72673589895894)">11%</text><text style="text-anchor: middle;" class="slice" transform="translate(-136.95759419528804,-22.230157269772143)">8%</text><text style="text-anchor: middle;" class="slice" transform="translate(-112.87271690256621,-80.69270276197929)">7%</text><text style="text-anchor: middle;" class="slice" transform="translate(-75.41999756266941,-116.46195287580808)">5%</text><text style="text-anchor: middle;" class="slice" transform="translate(-40.848900219984884,-132.60064046156685)">4%</text><text style="text-anchor: middle;" class="slice" transform="translate(-16.96799410183397,-137.70856791122378)">2%</text><text style="text-anchor: middle;" class="slice" transform="translate(-4.251977920791622,-138.68483400776418)">1%</text><text class="pieTitleText" y="-200" x="0">Global Pet Population Distribution</text><g transform="translate(216,-110)" class="legend"><rect style="fill: rgb(52, 152, 219); stroke: rgb(52, 152, 219);" height="18" width="18"/><text y="14" x="22">Dogs</text></g><g transform="translate(216,-88)" class="legend"><rect style="fill: rgb(231, 76, 60); stroke: rgb(231, 76, 60);" height="18" width="18"/><text y="14" x="22">Cats</text></g><g transform="translate(216,-66)" class="legend"><rect style="fill: rgb(46, 204, 113); stroke: rgb(46, 204, 113);" height="18" width="18"/><text y="14" x="22">Fish</text></g><g transform="translate(216,-44)" class="legend"><rect style="fill: rgb(241, 196, 15); stroke: rgb(241, 196, 15);" height="18" width="18"/><text y="14" x="22">Birds</text></g><g transform="translate(216,-22)" class="legend"><rect style="fill: rgb(155, 89, 182); stroke: rgb(155, 89, 182);" height="18" width="18"/><text y="14" x="22">Hamsters</text></g><g transform="translate(216,0)" class="legend"><rect style="fill: rgb(26, 188, 156); stroke: rgb(26, 188, 156);" height="18" width="18"/><text y="14" x="22">Rabbits</text></g><g transform="translate(216,22)" class="legend"><rect style="fill: rgb(230, 126, 34); stroke: rgb(230, 126, 34);" height="18" width="18"/><text y="14" x="22">Guinea Pigs</text></g><g transform="translate(216,44)" class="legend"><rect style="fill: rgb(52, 73, 94); stroke: rgb(52, 73, 94);" height="18" width="18"/><text y="14" x="22">Reptiles</text></g><g transform="translate(216,66)" class="legend"><rect style="fill: rgb(149, 165, 166); stroke: rgb(149, 165, 166);" height="18" width="18"/><text y="14" x="22">Ferrets</text></g><g transform="translate(216,88)" class="legend"><rect style="fill: rgb(211, 84, 0); stroke: rgb(211, 84, 0);" height="18" width="18"/><text y="14" x="22">Hedgehogs</text></g></g></svg>
 </div>
 
-That was a fun report. Dogs are indeed more popular than cats!
+Dogs remain the most popular pets, but there's a fascinating diversity in pet ownership across different species!
+
+## Data Analysis Examples
+
+### Python
+```python
+def analyze_pet_distribution(pets):
+    total = sum(pets.values())
+    percentages = {pet: (count/total * 100) for pet, count in pets.items()}
+    most_popular = max(pets.items(), key=lambda x: x[1])
+    return f"Among {total:,} pets surveyed, {most_popular[0]} are most popular with {percentages[most_popular[0]]:.1f}% of the total."
+```
+
+### JavaScript
+```javascript
+function calculatePetStats(petData) {
+    const total = Object.values(petData).reduce((sum, count) => sum + count, 0);
+    const stats = Object.entries(petData).map(([pet, count]) => ({
+        pet,
+        percentage: (count / total * 100).toFixed(1),
+        count: count.toLocaleString()
+    }));
+    
+    return stats.sort((a, b) => parseFloat(b.percentage) - parseFloat(a.percentage));
+}
+```
+
+### Java
+```java
+public class PetAnalytics {
+    public static Map<String, Double> calculateMarketShare(Map<String, Integer> petCounts) {
+        int total = petCounts.values().stream().mapToInt(Integer::intValue).sum();
+        
+        return petCounts.entrySet().stream()
+            .collect(Collectors.toMap(
+                Map.Entry::getKey,
+                e -> (e.getValue() * 100.0) / total,
+                (v1, v2) -> v1,
+                TreeMap::new
+            ));
+    }
+}
+```
+
+## Developer Notes
+
+```bash
+# Install dependencies
+npm install
+
+# Generate report
+npm run generate
+```

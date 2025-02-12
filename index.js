@@ -28,8 +28,8 @@ async function generateDocument(markdownPath, jsonPath, outputDir = './output') 
 }
 
 // Handle command line arguments
-const markdownPath = process.argv[2] || './templates/input.md';
-const jsonPath = process.argv[3] || './data/input.json';
+const markdownPath = process.argv[2] || './input/input.md';
+const jsonPath = process.argv[3] || './input/input.json';
 
 if (!markdownPath.endsWith('.md')) {
     console.error('First argument must be a markdown file (.md)');

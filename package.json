@@ -7,16 +7,16 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "mermaid": "node mermaid.js",
     "mmdc": "mmdc -i input.mmd -o output.svg",
-    "generate": "node index.js templates/input.md data/input.json"
+    "generate": "node index.js input/input.md input/input.json"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "@mermaid-js/mermaid-cli": "^11.4.2",
     "fs-extra": "^11.3.0",
-    "markdown-pdf": "^11.0.0"
-  },
-  "devDependencies": {
-    "phantomjs-prebuilt": "^2.1.16"
+    "highlight.js": "^11.11.1",
+    "markdown-it": "^14.1.0",
+    "markdown-it-highlightjs": "^4.2.0",
+    "puppeteer": "^22.15.0"
   }
 }

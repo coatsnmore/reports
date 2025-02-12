@@ -16,13 +16,36 @@ async function processMermaidBlocks(markdownContent, outputDir) {
         try {
             const mermaidContent = match[1].trim();
             
+            // Add custom Mermaid configuration
+            const mermaidConfig = {
+                theme: 'default',
+                themeVariables: {
+                    pie1: '#3498db',  // Blue
+                    pie2: '#e74c3c',  // Red
+                    pie3: '#2ecc71',  // Green
+                    pie4: '#f1c40f',  // Yellow
+                    pie5: '#9b59b6',  // Purple
+                    pie6: '#1abc9c',  // Turquoise
+                    pie7: '#e67e22',  // Orange
+                    pie8: '#34495e',  // Navy
+                    pie9: '#95a5a6',  // Gray
+                    pie10: '#d35400', // Dark Orange
+                    primaryColor: '#2c3e50',
+                    primaryTextColor: '#ecf0f1',
+                    fontFamily: 'Segoe UI'
+                }
+            };
+            
+            const configPath = path.join(outputDir, `config_${blockCount}.json`);
+            await fs.writeFile(configPath, JSON.stringify(mermaidConfig));
+            
             const mermaidPath = path.join(outputDir, `diagram_${blockCount}.mmd`);
             const svgPath = path.join(outputDir, `diagram_${blockCount}.svg`);
             
             await writeOutputFile(mermaidPath, mermaidContent);
             
             try {
-                await execPromise(`npx mmdc -i "${mermaidPath}" -o "${svgPath}"`);
+                await execPromise(`npx mmdc -i "${mermaidPath}" -o "${svgPath}" -c "${configPath}"`);
             } catch (error) {
                 console.error('Mermaid generation error:', error);
                 console.log('Problematic Mermaid content:', mermaidContent);
@@ -33,7 +56,7 @@ async function processMermaidBlocks(markdownContent, outputDir) {
             
             processedContent = processedContent.replace(
                 match[0],
-                `<div class="mermaid-diagram" style="text-align: center;">\n${svgContent}\n</div>`
+                `<div class="mermaid-diagram">\n${svgContent}\n</div>`
             );
             
             blockCount++;

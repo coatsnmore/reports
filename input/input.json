@@ -1,0 +1,19 @@
+{
+    "title": "Pet Distribution Survey 2024",
+    "chart": {
+        "title": "Global Pet Population Distribution"
+    },
+    "data": {
+        "Dogs": 10000,
+        "Cats": 8500,
+        "Fish": 7200,
+        "Birds": 4500,
+        "Hamsters": 3200,
+        "Rabbits": 2800,
+        "Guinea Pigs": 2100,
+        "Reptiles": 1500,
+        "Ferrets": 800,
+        "Hedgehogs": 400
+    },
+    "conclusion": "Dogs remain the most popular pets, but there's a fascinating diversity in pet ownership across different species!"
+} 
