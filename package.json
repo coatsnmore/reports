@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "mermaid": "node mermaid.js",
     "mmdc": "mmdc -i input.mmd -o output.svg",
-    "generate": "node index.js input.md input.json"
+    "generate": "node index.js templates/input.md data/input.json"
   },
   "author": "",
   "license": "ISC",
